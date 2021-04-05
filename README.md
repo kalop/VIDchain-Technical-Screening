@@ -19,3 +19,7 @@ Ex:
 For a list of 5 codes
 The base is 32 because 2⁵ = 32
 Then, if the decimal entered is 123, the decimals used to build the codes are = [27, 3]
+
+
+## Diffie Hellman
+An example of use is set in the test diffieHellman.ts with the name 'User interaction Diffie Hellman'
