@@ -1,11 +1,13 @@
 export class SecretHandshakeManager {
     readonly REVERSE = 'reverse'
 
-    // 1: 'wink',
-    // 10: 'double blink',
-    // 100: 'close your eyes',
-    // 1000: 'jump',
-    // 10000: REVERSE
+    /**
+     * 1: 'wink',
+     * 10: 'double blink',
+     * 100: 'close your eyes',
+     * 1000: 'jump',
+     * 10000: REVERSE
+     */
     codes = ['wink', 'double blink', 'close your eyes', 'jump', this.REVERSE]
 
     /**
